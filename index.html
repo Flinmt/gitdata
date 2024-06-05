@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gitdata</title>
+    <link rel="stylesheet" href="./assets/styles/search.css">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+    <link rel="stylesheet" href="./assets/styles/top.css">
+</head>
+
+<body>
+    <form onsubmit="getUser(); return false" class="search" id="search">
+        <img src="./assets/imgs/github-mark-white.svg" alt="github">
+        <input type="search" name="gitUser" id="gitUser">
+    </form>
+    <main id="card" class="main-card"></main>
+
+    <script src="./assets/scripts/gitApi.js"></script>
+</body>
+
+</html>
