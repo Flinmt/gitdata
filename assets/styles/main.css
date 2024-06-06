@@ -1,33 +1,121 @@
 body {
-    background-color: #2b3137;
+    background-color: #24292e;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.main-card {
-    width: 25rem;
-    max-width: 100%;
-}
-
 .card {
-    border-radius: 0.8rem;
-    display: flex;
+    display: none;
     flex-direction: column;
-    color: white;
-    box-shadow: 0 0 0.35rem #2dba4e;
-    padding: 2rem;
-    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding-block: 3rem;
+    width: 30rem;
+    max-width: 100%;
+    box-shadow: .1rem .5rem 2rem .1rem #2dba4e4d;
+    border-radius: .5rem;
+    color: #fafbfc;
     margin-bottom: 2rem;
 }
 
-.card:hover {
-    box-shadow: inset 0 0 0.35rem #2dba4e;
-    transition: 2s;
+.profile-img {
+    overflow: hidden;
+    border-radius: 100%;
+    width: 7.5rem;
+    height: 7.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name span {
+    font-size: 12px;
+    margin-top: -10px;
+    color: #fafbfc5b;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    list-style: none;
+    width: 90%;
+    padding: 0px;
+    border-top: 1px solid #fafbfc2d;
+    padding-top: 30px;
+}
+
+.info li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info label {
+    font-size: 14px;
+    color: #fafbfc5b;
 }
 
 .bio {
-    margin-top: 10px;
-    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    width: 80%;
+    border: none;
+    background: transparent;
+    resize: none;
+    color: #fafbfc;
+    font-size: 13px;
+}
+
+textarea#story {
+    -moz-appearance:none;
+    outline:0px none transparent;
+  }
+  
+  textarea:focus, input:focus{
+      outline: 0;
+  }
+  
+  *:focus {
+      outline: 0;
+  }
+
+.link-profile {
+    margin-top: 28px;
+    text-decoration: none;
+    color: #fafbfc5b;
+    font-size: x-large;
+    border: 1px solid #fafbfc2d;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    padding: .8rem;
+    transition: .3s;
+}
+
+.link-profile:hover {
+    background-color: #2dba4e4d;
+    color: #fafbfc;
 }

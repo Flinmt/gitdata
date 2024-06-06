@@ -3,10 +3,10 @@
     align-items: center;
     justify-self: center;
     align-self: center;
-    width: 40rem;
+    width: 38rem;
     max-width: calc(100% - 20px);
     margin-top: 3rem;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 
 .search img {
