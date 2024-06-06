@@ -1,5 +1,5 @@
 # gitdata
-Very Simple web page where user can put in anyone’s GitHub username and see some of their profile information
+Web page where user can put in anyone’s GitHub username and see some of their profile information
 
 
 |Exemple video|
